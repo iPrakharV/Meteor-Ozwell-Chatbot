@@ -43,6 +43,18 @@
         "/Users/iprakharv/.meteor/packages/hot-module-replacement/0.5.4/web.browser/hot-api.js",
         "/Users/iprakharv/.meteor/packages/hot-module-replacement/0.5.4/web.browser/client.js",
         "/Users/iprakharv/.meteor/packages/hot-module-replacement/0.5.4/web.browser/server.js"
+      ],
+      "meteor/accounts-base": [
+        "/Users/iprakharv/.meteor/packages/accounts-base/3.0.3/web.browser/client_main.js",
+        "/Users/iprakharv/.meteor/packages/accounts-base/3.0.3/web.browser/accounts_client.js",
+        "/Users/iprakharv/.meteor/packages/accounts-base/3.0.3/web.browser/accounts_common.js",
+        "/Users/iprakharv/.meteor/packages/accounts-base/3.0.3/web.browser/accounts_server.js",
+        "/Users/iprakharv/.meteor/packages/accounts-base/3.0.3/web.browser/server_main.js"
+      ],
+      "meteor/accounts-password": [
+        "/Users/iprakharv/.meteor/packages/accounts-password/3.0.1/web.browser/password_client.js",
+        "/Users/iprakharv/.meteor/packages/accounts-password/3.0.1/web.browser/email_templates.js",
+        "/Users/iprakharv/.meteor/packages/accounts-password/3.0.1/web.browser/password_server.js"
       ]
     }
   },

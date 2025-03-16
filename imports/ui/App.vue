@@ -1,10 +1,11 @@
-<script setup>
-import AppMenu from './AppMenu.vue'
-</script>
-
 <template>
-  <div class="p-8">
-    <AppMenu />
+  <div>
     <router-view />
   </div>
 </template>
+
+<script>
+export default {
+  name: "App",
+};
+</script>
