@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/Users/iprakharv/.meteor/packages/mongo/2.0.2/web.browser/local_collection_driver.js",
+        "/Users/iprakharv/.meteor/packages/mongo/2.0.2/web.browser/collection.js",
+        "/Users/iprakharv/.meteor/packages/mongo/2.0.2/web.browser/connection_options.js",
+        "/Users/iprakharv/.meteor/packages/mongo/2.0.2/web.browser/doc_fetcher.js",
+        "/Users/iprakharv/.meteor/packages/mongo/2.0.2/web.browser/mongo_driver.js",
+        "/Users/iprakharv/.meteor/packages/mongo/2.0.2/web.browser/mongo_utils.js",
+        "/Users/iprakharv/.meteor/packages/mongo/2.0.2/web.browser/observe_multiplex.js",
+        "/Users/iprakharv/.meteor/packages/mongo/2.0.2/web.browser/oplog_observe_driver.js",
+        "/Users/iprakharv/.meteor/packages/mongo/2.0.2/web.browser/oplog_tailing.js",
+        "/Users/iprakharv/.meteor/packages/mongo/2.0.2/web.browser/oplog_v2_converter.js",
+        "/Users/iprakharv/.meteor/packages/mongo/2.0.2/web.browser/polling_observe_driver.js",
+        "/Users/iprakharv/.meteor/packages/mongo/2.0.2/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/Users/iprakharv/.meteor/packages/reactive-var/1.0.13/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/Users/iprakharv/.meteor/packages/es5-shim/4.8.1/web.browser/client.js",
+        "/Users/iprakharv/.meteor/packages/es5-shim/4.8.1/web.browser/console.js",
+        "/Users/iprakharv/.meteor/packages/es5-shim/4.8.1/web.browser/cordova.js",
+        "/Users/iprakharv/.meteor/packages/es5-shim/4.8.1/web.browser/export_globals.js",
+        "/Users/iprakharv/.meteor/packages/es5-shim/4.8.1/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/Users/iprakharv/.meteor/packages/ecmascript/0.16.10/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/Users/iprakharv/.meteor/packages/shell-server/0.6.1/web.browser/main.js",
+        "/Users/iprakharv/.meteor/packages/shell-server/0.6.1/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/Users/iprakharv/.meteor/packages/hot-module-replacement/0.5.4/web.browser/hot-api.js",
+        "/Users/iprakharv/.meteor/packages/hot-module-replacement/0.5.4/web.browser/client.js",
+        "/Users/iprakharv/.meteor/packages/hot-module-replacement/0.5.4/web.browser/server.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
